@@ -21,13 +21,13 @@ Examples
 ::
 
     # Create a new seed file and use editor to add SQL:
-    hasura seed create new_table_seed
+    hasura seeds create new_table_seed
 
     # Create a new seed by exporting data from tables already present in the database:
-    hasura seed create table1_seed --from-table table1
+    hasura seeds create table1_seed --from-table table1
 
     # Export data from multiple tables:
-    hasura seed create tables_seed --from-table table1 --from-table table2
+    hasura seeds create tables_seed --from-table table1 --from-table table2
 
 Options
 ~~~~~~~
